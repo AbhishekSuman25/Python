@@ -31,5 +31,23 @@ def calculator():
 
 
         
-calculator()    
+calculator()   
+
+
+###Q2.write a program to create a list of odd and even number
+a = []
+n = int(input("enter total number of element: "))
+for i in range(n):
+    b = int(input("enter a number: "))
+    a.append(b)
+even = []
+odd = []
+for j in a:
+        if j%2 == 0 :
+            even.append(j)
+        else:
+            odd.append(j)
+print("The even list=",even) 
+print("The odd list=",odd)
+
         
